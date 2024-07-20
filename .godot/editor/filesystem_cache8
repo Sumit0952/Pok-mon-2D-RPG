@@ -1,0 +1,110 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1707636247
+Attacks.tscn::PackedScene::5603578295609762510::1707635420::0::1::::<><>::uid://ctuveu4bqpn6e::::res://Monsters/Attacks/Gen 1-2 Electric14.png<>uid://tew16nsdbiue::::res://Monsters/Attacks/Gen 1-2 Electric17.png<>uid://ejv8g3meqfs1::::res://Monsters/Attacks/Gen 1-2 Electric15.png<>uid://c0cf8hjm32qh6::::res://Monsters/Attacks/Gen 1-2 Electric18.png<>uid://pow612how831::::res://Monsters/Attacks/Gen 1-2 Electric16.png<>uid://begx34l53smhn::::res://Monsters/Attacks/Gen 1-2 Electric19.png<>uid://bs1q5dkbx8wed::::res://Monsters/Attacks/Gen 1-2 Electric28.png<>uid://bfcd7v838ibg2::::res://Monsters/Attacks/Gen 1-2 Electric29.png<>uid://c6uhml07c1giw::::res://Monsters/Attacks/Gen 1-2 Electric30.png<>uid://c2a1jwiy6en5v::::res://Monsters/Attacks/Gen 1-2 Electric31.png<>uid://c52wpckx0anvb::::res://Monsters/Attacks/Gen 3A Electric26.png<>uid://cb4pso0a1wf6y::::res://Monsters/Attacks/Gen 3A Electric25.png<>uid://cni0ko8bo86xk::::res://Monsters/Attacks/Gen 3A Electric27.png<>uid://x1gawqdewbhx::::res://Monsters/Attacks/Gen 3A Electric39.png<>uid://6sslr82fdwyu::::res://Monsters/Attacks/Gen 3A Electric40.png<>uid://bamsp02vf5pj3::::res://Monsters/Attacks/Gen 3A Electric38.png<>uid://wojx8qjs8iih::::res://Monsters/Attacks/Gen 3A Electric13.png<>uid://bqosis1fejmv2::::res://Monsters/Attacks/Gen 3A Electric14.png<>uid://c7nx0yfve6qog::::res://Monsters/Attacks/Gen 3A Electric15.png<>uid://ctb8ulpwc5ijb::::res://Monsters/Attacks/Gen 3A Electric16.png<>uid://b0n2604xrcshk::::res://Monsters/Attacks/Gen 3A Electric17.png<>uid://cga664fgu4on5::::res://Monsters/Attacks/Gen 3A Electric18.png<>uid://crn7h18nkuwai::::res://Monsters/Attacks/Gen 3A Electric19.png<>uid://csqq2eklrive6::::res://Monsters/Attacks/Gen 3A Electric20.png<>uid://cx0efdsh10vef::::res://Monsters/Attacks/Gen 3A Electric21.png
+battle.tscn::PackedScene::5657303118079485400::1707635420::0::1::::<><>::res://BattleSpawn.gd
+BattleSpawn.gd::GDScript::-1::1707200253::0::1::::<>Area2D<>::
+canvas_layer.gd::GDScript::-1::1707369512::0::1::::<>CanvasLayer<>::
+canvas_layer.tscn::PackedScene::7899585460244547043::1707635420::0::1::::<><>::res://canvas_layer.gd<>uid://ffm85nnbaqam::::res://battleback/BB1 RSE Grass.png<>uid://cjx3bgutquxjy::::res://battleback/BB2 FRLG Grass.png<>uid://2w75ei66g7ca::::res://battleback/Screenshot 2024-02-04 225907.png<>uid://bgyvgjst1wqh2::::res://battleback/Screenshot 2024-02-04 225939.png<>uid://bpypsf8jvu6v::::res://Pikachu.tscn<>uid://cl3od652mh1ti::::res://Attacks.tscn<>uid://be8inp6pa7r6e::::res://WindGust.tscn
+character_body_2d.gd::GDScript::-1::1707023024::0::1::::<>CharacterBody2D<>::
+export_presets.cfg::TextFile::-1::1706937734::0::1::::<><>::
+icon.svg::CompressedTexture2D::4821106278388885953::1707144276::1707144276::1::::<><>::
+Mustang 13.04.2021 Compressed.obj::Mesh::7929107184803176309::1707636247::1707637360::1::::<><>::
+node_2d.tscn::PackedScene::7455368331632391303::1707635419::0::1::::<><>::uid://c8ubgghecorqk::::res://tilesets/FRLG Outside/FRLG Outside A2B.png<>uid://g6c8ajqklslc::::res://tilesets/FRLG Outside/FRLG Dungeons_B.png<>uid://ohnjl78d0t5q::::res://tilesets/FRLG Outside/FRLG Outside B.png<>uid://cogq4iseugk3p::::res://Player.tscn<>uid://cmuo7q6itpige::::res://battle.tscn<>uid://nauqisevqqrb::::res://UI.tscn
+Pikachu.tscn::PackedScene::102639459340467867::1707635420::0::1::::<><>::uid://casjjf1ok7i80::::res://Monsters/25 DP-2.png
+Player.tscn::PackedScene::5768895152952516959::1707069140::0::1::::<><>::res://character_body_2d.gd<>uid://bdluvwxwc554s::::res://Character/FRLG Peds1.png
+README.md::TextFile::-1::1707144276::0::1::::<><>::
+node_3d.tscn::PackedScene::1149238728118358935::1707635421::0::1::::<><>::uid://cogq4iseugk3p::::res://Player.tscn<>uid://be8inp6pa7r6e::::res://WindGust.tscn
+TrailFollow2D.gd::GDScript::-1::1707144276::0::1::::TrailFollow2D<>PathFollow2D<>::
+UI.tscn::PackedScene::913698328055961939::1707204082::0::1::::<><>::
+WindGust.gd::GDScript::-1::1707203122::0::1::::<>Line2D<>::
+WindGust.tscn::PackedScene::2735810311814097414::1707635420::0::1::::<><>::res://WindGust.gd<>uid://bw2xctlgribmm::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 2.png<>uid://lmj1h8tpl13l::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 3.png<>uid://cqt1dqceq6kik::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 4.png<>uid://rshdqmfc8hx7::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 5.png<>uid://diu2lma847od6::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 6.png<>uid://bcuwr8cwum7ls::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 7.png<>uid://00py8q7ybncn::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 8.png<>uid://b7c1yfebinrhv::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 9.png<>uid://btsmtkeqkssk0::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 10.png<>uid://cx53waklmoaih::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 11.png<>uid://b6njib52rmq8j::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 12.png<>uid://ddgcund77uium::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 13.png<>uid://bfel4nbhkcmyi::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 14.png<>uid://drcort5prt8ne::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 15.png<>uid://tglyw7oymumt::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 16.png<>uid://baml42im3nlxq::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 17.png<>uid://bu5t8ma0jrd5c::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 1.png<>uid://bmrvsj7fedidk::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 0.png<>uid://bv8f4t61kmerd::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 156.png<>uid://bf3udfoofyabc::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 136.png<>uid://bvw6i1vg6g0l4::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 137.png<>uid://bdg104ltxc6dn::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 138.png<>uid://cy27f0dscxr0i::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 139.png<>uid://kvfdihe7d4ue::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 140.png<>uid://cc2p0g7hrmofn::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 153.png<>uid://dma3v2spq8y5c::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 152.png<>uid://dbvbiayc4ku31::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 149.png<>uid://xbwjjldmr5r1::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 144.png<>uid://cxg5hsrxkpwbn::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 143.png<>uid://btaamh24px1qu::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 142.png<>uid://dbbov2i24s52w::::res://Pokeball/Pics/Gen3 Pinball Pokeballs 141.png
+::res://battleback/::1707067866
+BB1 RSE Grass.png::CompressedTexture2D::362055238447497020::1706502248::1706502261::1::::<><>::
+BB2 FRLG Grass.png::CompressedTexture2D::5453723856984890918::1706502284::1706502284::1::::<><>::
+node_2d.gltf::PackedScene::3936089576954505803::1706937829::1706937829::1::::<><>::
+Screenshot 2024-02-04 225907.png::CompressedTexture2D::1942511830303896516::1707067840::1707067866::1::::<><>::
+Screenshot 2024-02-04 225939.png::CompressedTexture2D::2858385084645787129::1707067840::1707067866::1::::<><>::
+Screenshot 2024-02-04 225958.png::CompressedTexture2D::8683739628215655820::1707067840::1707067866::1::::<><>::
+::res://Character/::1706255918
+FRLG Peds1.png::CompressedTexture2D::2620948403476859380::1527574383::1706255918::1::::<><>::
+::res://Global/::1707027172
+Game.gd::GDScript::-1::1707027172::0::1::::<>Node<>::
+Utils.gd::GDScript::-1::1707023238::0::1::::<>Node<>::
+::res://Monsters/::1707030171
+25 DP-2.png::CompressedTexture2D::4810562995471713275::1707029541::1707029541::1::::<><>::
+::res://Monsters/Attacks/::1707070001
+Gen 1-2 Electric14.png::CompressedTexture2D::6149000246947481646::1707030152::1707030171::1::::<><>::
+Gen 1-2 Electric15.png::CompressedTexture2D::300669121331455058::1707030152::1707030171::1::::<><>::
+Gen 1-2 Electric16.png::CompressedTexture2D::1083126484233720070::1707030152::1707030171::1::::<><>::
+Gen 1-2 Electric17.png::CompressedTexture2D::1343229393749451652::1707030152::1707030171::1::::<><>::
+Gen 1-2 Electric18.png::CompressedTexture2D::6532054112158238373::1707030152::1707030171::1::::<><>::
+Gen 1-2 Electric19.png::CompressedTexture2D::2681010359403759483::1707030152::1707030171::1::::<><>::
+Gen 1-2 Electric28.png::CompressedTexture2D::3704518909580236795::1707030514::1707030514::1::::<><>::
+Gen 1-2 Electric29.png::CompressedTexture2D::2741734109060144123::1707030514::1707030514::1::::<><>::
+Gen 1-2 Electric30.png::CompressedTexture2D::6990430141557222894::1707030514::1707030514::1::::<><>::
+Gen 1-2 Electric31.png::CompressedTexture2D::6669536028574336981::1707030514::1707030514::1::::<><>::
+Gen 3A Electric13.png::CompressedTexture2D::1573645133209964927::1707069834::1707069834::1::::<><>::
+Gen 3A Electric14.png::CompressedTexture2D::3539451648497599805::1707069834::1707069834::1::::<><>::
+Gen 3A Electric15.png::CompressedTexture2D::7047163679532418746::1707069834::1707069834::1::::<><>::
+Gen 3A Electric16.png::CompressedTexture2D::6110533752834626915::1707069834::1707069834::1::::<><>::
+Gen 3A Electric17.png::CompressedTexture2D::4169674762813347840::1707069834::1707069834::1::::<><>::
+Gen 3A Electric18.png::CompressedTexture2D::5195913546802880568::1707069834::1707069834::1::::<><>::
+Gen 3A Electric19.png::CompressedTexture2D::5994845481551875712::1707069834::1707069834::1::::<><>::
+Gen 3A Electric20.png::CompressedTexture2D::6070290511319728043::1707069834::1707069834::1::::<><>::
+Gen 3A Electric21.png::CompressedTexture2D::6439046197583361321::1707069834::1707069834::1::::<><>::
+Gen 3A Electric25.png::CompressedTexture2D::4903840839056381786::1707070001::1707070001::1::::<><>::
+Gen 3A Electric26.png::CompressedTexture2D::6935607558209406575::1707070001::1707070001::1::::<><>::
+Gen 3A Electric27.png::CompressedTexture2D::5703347925842237404::1707070001::1707070001::1::::<><>::
+Gen 3A Electric38.png::CompressedTexture2D::2412314265275683370::1707070001::1707070001::1::::<><>::
+Gen 3A Electric39.png::CompressedTexture2D::1668382707609989337::1707070001::1707070001::1::::<><>::
+Gen 3A Electric40.png::CompressedTexture2D::2214126447063910564::1707070001::1707070001::1::::<><>::
+::res://Pokeball/::1707144554
+::res://Pokeball/Pics/::1707229189
+Gen3 Pinball Pokeballs 0.png::CompressedTexture2D::3265088952683432072::1707144276::1707144589::1::::<><>::
+Gen3 Pinball Pokeballs 1.png::CompressedTexture2D::3853342074565753410::1707144276::1707144589::1::::<><>::
+Gen3 Pinball Pokeballs 2.png::CompressedTexture2D::3987714520743013496::1707144276::1707144589::1::::<><>::
+Gen3 Pinball Pokeballs 3.png::CompressedTexture2D::797443116169277203::1707144276::1707144589::1::::<><>::
+Gen3 Pinball Pokeballs 4.png::CompressedTexture2D::5936670885783063226::1707144276::1707144589::1::::<><>::
+Gen3 Pinball Pokeballs 5.png::CompressedTexture2D::1230800376893117458::1707144276::1707144589::1::::<><>::
+Gen3 Pinball Pokeballs 6.png::CompressedTexture2D::7763719989622004653::1707144276::1707144589::1::::<><>::
+Gen3 Pinball Pokeballs 7.png::CompressedTexture2D::2569453795774585448::1707144276::1707144589::1::::<><>::
+Gen3 Pinball Pokeballs 8.png::CompressedTexture2D::1807285908221003917::1707144276::1707144589::1::::<><>::
+Gen3 Pinball Pokeballs 9.png::CompressedTexture2D::4638214205336527823::1707144276::1707144589::1::::<><>::
+Gen3 Pinball Pokeballs 10.png::CompressedTexture2D::3757930578539960805::1707144276::1707144589::1::::<><>::
+Gen3 Pinball Pokeballs 11.png::CompressedTexture2D::6450855482910529319::1707144276::1707144588::1::::<><>::
+Gen3 Pinball Pokeballs 12.png::CompressedTexture2D::4589672586678467451::1707144276::1707144588::1::::<><>::
+Gen3 Pinball Pokeballs 13.png::CompressedTexture2D::7382372687316847284::1707144276::1707144588::1::::<><>::
+Gen3 Pinball Pokeballs 14.png::CompressedTexture2D::2746342772523036088::1707144276::1707144588::1::::<><>::
+Gen3 Pinball Pokeballs 15.png::CompressedTexture2D::8357482589821906634::1707144276::1707144588::1::::<><>::
+Gen3 Pinball Pokeballs 16.png::CompressedTexture2D::1346686247237230235::1707144276::1707144588::1::::<><>::
+Gen3 Pinball Pokeballs 17.png::CompressedTexture2D::2411914322757547634::1707144276::1707144588::1::::<><>::
+Gen3 Pinball Pokeballs 136.png::CompressedTexture2D::2796387461121714164::1707144276::1707144588::1::::<><>::
+Gen3 Pinball Pokeballs 137.png::CompressedTexture2D::3907700622170396311::1707144276::1707144588::1::::<><>::
+Gen3 Pinball Pokeballs 138.png::CompressedTexture2D::2610998308855233423::1707144276::1707144588::1::::<><>::
+Gen3 Pinball Pokeballs 139.png::CompressedTexture2D::6515065005336246262::1707144276::1707144588::1::::<><>::
+Gen3 Pinball Pokeballs 140.png::CompressedTexture2D::745549742786214776::1707144276::1707144588::1::::<><>::
+Gen3 Pinball Pokeballs 141.png::CompressedTexture2D::7232404243797271140::1707229188::1707229189::1::::<><>::
+Gen3 Pinball Pokeballs 142.png::CompressedTexture2D::3720030553054352292::1707229188::1707229189::1::::<><>::
+Gen3 Pinball Pokeballs 143.png::CompressedTexture2D::6401406020666604607::1707229188::1707229189::1::::<><>::
+Gen3 Pinball Pokeballs 144.png::CompressedTexture2D::1617760117270856508::1707229188::1707229189::1::::<><>::
+Gen3 Pinball Pokeballs 149.png::CompressedTexture2D::7272877868101944194::1707229188::1707229189::1::::<><>::
+Gen3 Pinball Pokeballs 150.png::CompressedTexture2D::4368097494679647974::1707229188::1707229189::1::::<><>::
+Gen3 Pinball Pokeballs 152.png::CompressedTexture2D::8003267198846327494::1707229188::1707229189::1::::<><>::
+Gen3 Pinball Pokeballs 153.png::CompressedTexture2D::4969913018676096063::1707229188::1707229189::1::::<><>::
+Gen3 Pinball Pokeballs 156.png::CompressedTexture2D::3928867285990578901::1707229188::1707144588::1::::<><>::
+::res://tilesets/::1706184548
+::res://tilesets/FRLG Outside/::1706246337
+FRLG Dungeons_B.png::CompressedTexture2D::485309152032465272::1706246337::1706246337::1::::<><>::
+FRLG Outside A1A.png::CompressedTexture2D::4915777028394090702::1706184532::1706184549::1::::<><>::
+FRLG Outside A1B.png::CompressedTexture2D::8924862098485973741::1706184532::1706184548::1::::<><>::
+FRLG Outside A1C.png::CompressedTexture2D::6363071601810433286::1706184532::1706184549::1::::<><>::
+FRLG Outside A2A.png::CompressedTexture2D::8963388018833447036::1706184532::1706184549::1::::<><>::
+FRLG Outside A2B.png::CompressedTexture2D::7130432520417378750::1706184532::1706184549::1::::<><>::
+FRLG Outside A5.png::CompressedTexture2D::2872853443233118631::1706184532::1706184548::1::::<><>::
+FRLG Outside B.png::CompressedTexture2D::997900476956956400::1706184532::1706184549::1::::<><>::
+FRLG Outside C.png::CompressedTexture2D::5731715306884010609::1706184532::1706184549::1::::<><>::
+FRLG Outside D.png::CompressedTexture2D::5670647748155445474::1706184532::1706184549::1::::<><>::
+FRLG Outside E1.png::CompressedTexture2D::8468533236161182282::1706184532::1706184549::1::::<><>::
+FRLG Outside E2.png::CompressedTexture2D::3761983552784285461::1706184532::1706184549::1::::<><>::
+FRLG Outside E3.png::CompressedTexture2D::7981713719961260736::1706184532::1706184549::1::::<><>::
+FRLG Outside E4.png::CompressedTexture2D::7702612059360274265::1706184532::1706184549::1::::<><>::

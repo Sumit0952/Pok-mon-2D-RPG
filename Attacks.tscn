@@ -1,0 +1,321 @@
+[gd_scene load_steps=32 format=3 uid="uid://cl3od652mh1ti"]
+
+[ext_resource type="Texture2D" uid="uid://ctuveu4bqpn6e" path="res://Monsters/Attacks/Gen 1-2 Electric14.png" id="1_tetpn"]
+[ext_resource type="Texture2D" uid="uid://tew16nsdbiue" path="res://Monsters/Attacks/Gen 1-2 Electric17.png" id="2_pi4q1"]
+[ext_resource type="Texture2D" uid="uid://ejv8g3meqfs1" path="res://Monsters/Attacks/Gen 1-2 Electric15.png" id="3_0wy4o"]
+[ext_resource type="Texture2D" uid="uid://c0cf8hjm32qh6" path="res://Monsters/Attacks/Gen 1-2 Electric18.png" id="4_l4h7u"]
+[ext_resource type="Texture2D" uid="uid://pow612how831" path="res://Monsters/Attacks/Gen 1-2 Electric16.png" id="5_8l0fh"]
+[ext_resource type="Texture2D" uid="uid://begx34l53smhn" path="res://Monsters/Attacks/Gen 1-2 Electric19.png" id="6_v1mbc"]
+[ext_resource type="Texture2D" uid="uid://bs1q5dkbx8wed" path="res://Monsters/Attacks/Gen 1-2 Electric28.png" id="7_m3nbo"]
+[ext_resource type="Texture2D" uid="uid://bfcd7v838ibg2" path="res://Monsters/Attacks/Gen 1-2 Electric29.png" id="8_cjieq"]
+[ext_resource type="Texture2D" uid="uid://c6uhml07c1giw" path="res://Monsters/Attacks/Gen 1-2 Electric30.png" id="9_3bajl"]
+[ext_resource type="Texture2D" uid="uid://c2a1jwiy6en5v" path="res://Monsters/Attacks/Gen 1-2 Electric31.png" id="10_clion"]
+[ext_resource type="Texture2D" uid="uid://c52wpckx0anvb" path="res://Monsters/Attacks/Gen 3A Electric26.png" id="11_hmw8g"]
+[ext_resource type="Texture2D" uid="uid://cb4pso0a1wf6y" path="res://Monsters/Attacks/Gen 3A Electric25.png" id="12_1ce1v"]
+[ext_resource type="Texture2D" uid="uid://cni0ko8bo86xk" path="res://Monsters/Attacks/Gen 3A Electric27.png" id="13_t0l6o"]
+[ext_resource type="Texture2D" uid="uid://x1gawqdewbhx" path="res://Monsters/Attacks/Gen 3A Electric39.png" id="14_e8ib7"]
+[ext_resource type="Texture2D" uid="uid://6sslr82fdwyu" path="res://Monsters/Attacks/Gen 3A Electric40.png" id="15_p4wqu"]
+[ext_resource type="Texture2D" uid="uid://bamsp02vf5pj3" path="res://Monsters/Attacks/Gen 3A Electric38.png" id="16_lx7hj"]
+[ext_resource type="Texture2D" uid="uid://wojx8qjs8iih" path="res://Monsters/Attacks/Gen 3A Electric13.png" id="17_2wcts"]
+[ext_resource type="Texture2D" uid="uid://bqosis1fejmv2" path="res://Monsters/Attacks/Gen 3A Electric14.png" id="18_50bbs"]
+[ext_resource type="Texture2D" uid="uid://c7nx0yfve6qog" path="res://Monsters/Attacks/Gen 3A Electric15.png" id="19_1ygto"]
+[ext_resource type="Texture2D" uid="uid://ctb8ulpwc5ijb" path="res://Monsters/Attacks/Gen 3A Electric16.png" id="20_dyixl"]
+[ext_resource type="Texture2D" uid="uid://b0n2604xrcshk" path="res://Monsters/Attacks/Gen 3A Electric17.png" id="21_tf8yc"]
+[ext_resource type="Texture2D" uid="uid://cga664fgu4on5" path="res://Monsters/Attacks/Gen 3A Electric18.png" id="22_dlx4t"]
+[ext_resource type="Texture2D" uid="uid://crn7h18nkuwai" path="res://Monsters/Attacks/Gen 3A Electric19.png" id="23_0ebtj"]
+[ext_resource type="Texture2D" uid="uid://csqq2eklrive6" path="res://Monsters/Attacks/Gen 3A Electric20.png" id="24_qpd5a"]
+[ext_resource type="Texture2D" uid="uid://cx0efdsh10vef" path="res://Monsters/Attacks/Gen 3A Electric21.png" id="25_jvjom"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dd63r"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_tetpn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_pi4q1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_0wy4o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_l4h7u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_8l0fh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_v1mbc")
+}],
+"loop": true,
+"name": &"Thunder Shock",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_m3nbo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_cjieq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_3bajl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_clion")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_hmw8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_1ce1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_t0l6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_e8ib7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_p4wqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_lx7hj")
+}],
+"loop": false,
+"name": &"Tunder Boult",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_2wcts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_50bbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_1ygto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_dyixl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_tf8yc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_dlx4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_0ebtj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_qpd5a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_jvjom")
+}],
+"loop": true,
+"name": &"Wild charge",
+"speed": 5.0
+}]
+
+[sub_resource type="Animation" id="Animation_rfho2"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_d78oe"]
+resource_name = "Thunder Boult"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"Tunder Boult"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AnimatedSprite2D:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("AnimatedSprite2D:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="Animation" id="Animation_pf4x7"]
+resource_name = "Thunder Shock"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"Thunder Shock"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AnimatedSprite2D:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.6),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("AnimatedSprite2D:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="Animation" id="Animation_wcvn5"]
+resource_name = "Wild charge"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"Wild charge"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AnimatedSprite2D:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("AnimatedSprite2D:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_b1m0l"]
+_data = {
+"RESET": SubResource("Animation_rfho2"),
+"Thunder Boult": SubResource("Animation_d78oe"),
+"Thunder Shock": SubResource("Animation_pf4x7"),
+"Wild charge": SubResource("Animation_wcvn5")
+}
+
+[node name="Marker2D" type="Marker2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+visible = false
+sprite_frames = SubResource("SpriteFrames_dd63r")
+animation = &"Thunder Shock"
+frame = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_b1m0l")
+}

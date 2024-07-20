@@ -1,0 +1,112 @@
+[gd_scene load_steps=10 format=3 uid="uid://dksvaviwlrlb4"]
+
+[ext_resource type="Script" path="res://canvas_layer.gd" id="1_vf0sp"]
+[ext_resource type="Texture2D" uid="uid://ffm85nnbaqam" path="res://battleback/BB1 RSE Grass.png" id="1_xnfkg"]
+[ext_resource type="Texture2D" uid="uid://cjx3bgutquxjy" path="res://battleback/BB2 FRLG Grass.png" id="2_c2ss7"]
+[ext_resource type="Texture2D" uid="uid://2w75ei66g7ca" path="res://battleback/Screenshot 2024-02-04 225907.png" id="3_3sfew"]
+[ext_resource type="Texture2D" uid="uid://bgyvgjst1wqh2" path="res://battleback/Screenshot 2024-02-04 225939.png" id="4_dxnfy"]
+[ext_resource type="PackedScene" uid="uid://bpypsf8jvu6v" path="res://Pikachu.tscn" id="5_j1ggw"]
+[ext_resource type="PackedScene" uid="uid://cl3od652mh1ti" path="res://Attacks.tscn" id="6_quk54"]
+[ext_resource type="PackedScene" uid="uid://be8inp6pa7r6e" path="res://WindGust.tscn" id="7_2b5og"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_c0hk2"]
+
+[node name="Battle_scene" type="CanvasLayer"]
+script = ExtResource("1_vf0sp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="Bb1RseGrass" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(572, 323)
+scale = Vector2(1.22, 0.87027)
+texture = ExtResource("1_xnfkg")
+
+[node name="Bb2FrlgGrass" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(691, 453)
+scale = Vector2(1.117, 1.13378)
+texture = ExtResource("2_c2ss7")
+
+[node name="Bb2FrlgGrass2" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(555, 456)
+scale = Vector2(1.117, 1.13378)
+texture = ExtResource("2_c2ss7")
+flip_h = true
+
+[node name="Screenshot2024-02-04225907" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(574.75, 567)
+scale = Vector2(2.20785, 2.09)
+texture = ExtResource("3_3sfew")
+
+[node name="Screenshot2024-02-04225939" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(296, 54.75)
+scale = Vector2(3.04478, 1.79825)
+texture = ExtResource("4_dxnfy")
+
+[node name="Screenshot2024-02-04225940" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(880, 55)
+scale = Vector2(2.77612, 1.79825)
+texture = ExtResource("4_dxnfy")
+flip_h = true
+
+[node name="Marker2D" parent="." instance=ExtResource("6_quk54")]
+position = Vector2(895, 250)
+scale = Vector2(3, 3)
+
+[node name="Pokimon Capture" parent="." instance=ExtResource("7_2b5og")]
+position = Vector2(-15, -4)
+
+[node name="Container" type="Container" parent="."]
+offset_left = 102.0
+offset_top = 534.0
+offset_right = 142.0
+offset_bottom = 574.0
+
+[node name="Button" type="Button" parent="."]
+offset_left = 717.0
+offset_top = 533.0
+offset_right = 808.0
+offset_bottom = 591.0
+theme_override_colors/font_color = Color(0.493545, 0.493546, 0.493545, 1)
+theme_override_font_sizes/font_size = 36
+theme_override_styles/normal = SubResource("StyleBoxEmpty_c0hk2")
+text = "Wild charge"
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 945.0
+offset_top = 532.0
+offset_right = 1036.0
+offset_bottom = 590.0
+theme_override_colors/font_color = Color(0.493545, 0.493546, 0.493545, 1)
+theme_override_font_sizes/font_size = 36
+theme_override_styles/normal = SubResource("StyleBoxEmpty_c0hk2")
+text = "No"
+
+[node name="Player" type="Node" parent="."]
+
+[node name="StaticBody2D" parent="Player" instance=ExtResource("5_j1ggw")]
+position = Vector2(273, 262)
+
+[node name="Enemy" type="Node" parent="."]
+
+[node name="StaticBody2D" parent="Enemy" instance=ExtResource("5_j1ggw")]
+position = Vector2(912, 273)
+
+[node name="WindGust" parent="." instance=ExtResource("7_2b5og")]
+position = Vector2(-646, 7)
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="GridContainer" type="GridContainer" parent="Control/HBoxContainer"]
+layout_mode = 2
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]

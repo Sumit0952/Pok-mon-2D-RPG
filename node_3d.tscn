@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://qmx182i6t67t"]
+
+[ext_resource type="ArrayMesh" uid="uid://dk76ib3g2b1en" path="res://Mustang 13.04.2021 Compressed.obj" id="1_el6a2"]
+
+[sub_resource type="Skin" id="Skin_vkgwx"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Mustang13_04_2021Compressed" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.99971, -0.0240658, 0, 0.0240658, 0.99971, 0.848576, 0.533893, 7.17586)
+mesh = ExtResource("1_el6a2")
+skin = SubResource("Skin_vkgwx")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.947738, 0.0674579, 0.311837, -0.0599386, 0.997635, -0.0336465, -0.313369, 0.013197, 0.94954, 41.0511, -0.384657, 29.4801)

@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmuo7q6itpige"]
+
+[ext_resource type="Script" path="res://BattleSpawn.gd" id="1_y8opp"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pouje"]
+radius = 169.706
+
+[node name="BattleSpawn" type="Area2D"]
+script = ExtResource("1_y8opp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_pouje")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]

@@ -1,0 +1,14 @@
+Camera3D
+GridContainer
+HBoxContainer
+Control
+CharacterBody2D
+AnimationPlayer
+WorldEnvironment
+Node
+CenterContainer
+Button
+Container
+TextEdit
+Sprite2D
+PathFollow2D
